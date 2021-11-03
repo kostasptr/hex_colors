@@ -1,0 +1,101 @@
+body{
+  overflow: hidden;
+  margin:0;
+  padding:0;
+}
+
+p {
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image:linear-gradient(270deg, white, black);
+}
+
+.divTitle > p{
+  text-transform: uppercase;
+} 
+
+p {
+  font-size:2rem;
+  font-family: Comfortaa, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.divButton{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+button {
+  margin-top:10px;
+  padding: 10px 20px;
+  background-color:white;
+  border: solid 4px rgba(230, 229, 229, 0.5);
+  transition: border ease 0.2s;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-transition: border ease 0.2s;
+  -moz-transition: border ease 0.2s;
+  -ms-transition: border ease 0.2s;
+  -o-transition: border ease 0.2s;
+}
+
+button:hover{
+  border: solid 4px rgba(88, 88, 88, 0.5);
+}
+
+.buttonText{
+  color: rgb(146, 146, 146);
+}
+
+.buttonText:hover{
+  color:black;
+}
+
+p {
+  background: linear-gradient(270deg, #ffffff, #1f1f1f, #ffffff, #1f1f1f);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: linearcolor 7s ease infinite;
+  -webkit-animation: linearcolor 7s ease infinite;
+  -moz-animation: linearcolor 7s ease infinite;
+  -o-animation: linearcolor 7s ease infinite;
+}
+
+@keyframes linearcolor {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes linearcolor {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-moz-keyframes linearcolor {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-o-keyframes linearcolor {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
